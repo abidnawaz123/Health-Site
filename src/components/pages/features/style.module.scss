@@ -1,0 +1,39 @@
+@import "../../../styles/index.scss";
+
+.featuresWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: $smallRow_gap;
+  margin-bottom: $largeRow_gap;
+  h3 {
+    font-size: map-get($headings, font-size);
+    font-weight: map-get($headings, font-weight);
+    line-height: map-get($headings, line-height);
+    font-style: map-get($headings, font-style);
+    color: "#262626";
+  }
+}
+.col1 {
+  background-color: $para_headers;
+  border: 1px solid $para_border;
+  padding: 40px 50px;
+  .column1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .iconSection {
+      padding: 10px 12px;
+      background-color: $green_70;
+      border-radius: 5px;
+    }  
+  }
+  p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+  }
+}

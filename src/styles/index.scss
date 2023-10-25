@@ -1,0 +1,35 @@
+// Contianer Style 
+@import "./container";
+// Colors 
+$dark_green: #1a3129;
+$green_70: #cbea7b;
+$theme_white: #fafdf2;
+$black: #262626;
+$para_headers: #f6fbe9;
+$para_border: #e5f5bd;
+
+$smallRow_gap: 10px;
+$largeRow_gap: 50px;
+
+$my_gray_text: (
+  color: "#262626",
+  font-size: 18px,
+  font-style: normal,
+  font-weight: 500,
+  line-height: 150%,
+);
+
+$headings: (
+  font-size: 24px,
+  font-style: normal,
+  font-weight: 600,
+  line-height: 150%,
+);
+
+$giant_headings: (
+  color: #1a3129,
+  font-size: 58px,
+  font-style: normal,
+  font-weight: 700,
+  line-height: normal,
+);

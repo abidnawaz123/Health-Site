@@ -1,0 +1,89 @@
+@import "../../../styles/index.scss";
+
+.hero_section_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: $largeRow_gap 0;
+  .mainLabel {
+    color: $dark_green;
+    border-bottom: 3px solid $green_70;
+    // max-width: 30%;
+    font-size: map-get($headings, font-size);
+    font-style: map-get($headings, font-style);
+    font-weight: map-get($headings, font-weight);
+    font-size: map-get($headings, font-size);
+  }
+  .giantHeading {
+    margin: $smallRow_gap 0;
+    color: $dark_green;
+    font-size: map-get($giant_headings, font-size);
+    font-style: map-get($giant_headings, font-style);
+    font-weight: map-get($giant_headings, font-weight);
+    font-size: map-get($giant_headings, font-size);
+    &::selection {
+      background-color: #468671;
+      color: yellow;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  .description_1 {
+    font-size: map-get($my_gray_text, font-size);
+    font-style: map-get($my_gray_text, font-style);
+    font-weight: map-get($my_gray_text, font-weight);
+    font-size: map-get($my_gray_text, font-size);
+  }
+  .buttonsGroup {
+    display: flex;
+    gap: 30px;
+    margin-top: $smallRow_gap;
+    button:nth-child(1) {
+      background-color: $green_70;
+      outline: none;
+      border: none;
+      height: 3rem;
+      width: 8rem;
+      box-shadow: 0 3px 5px -0.6px $black;
+    }
+    button:nth-child(2) {
+      background-color: $theme_white;
+      outline: none;
+      border: none;
+      height: 3rem;
+      width: 8rem;
+      box-shadow: 0 3px 5px -0.6px $black;
+    }
+  }
+  .avatarSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .avatarWrapper {
+      margin: $largeRow_gap 0;
+      border-radius: 58px;
+      padding: 8px 10px;
+      border: 1px solid $green_70;
+    }
+    .customerAmount {
+      color: #468671;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+    }
+    .customerDetails {
+      color: $dark_green;
+      font-size: map-get($my_gray_text, font-size);
+      font-style: map-get($my_gray_text, font-style);
+      font-weight: map-get($my_gray_text, font-weight);
+      font-size: map-get($my_gray_text, font-size);
+    }
+  }
+  p {
+    margin: $smallRow_gap 0;
+  }
+}

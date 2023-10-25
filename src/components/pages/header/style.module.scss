@@ -1,0 +1,47 @@
+@import "../../../styles/index.scss";
+
+.header {
+  background-color: $dark_green;
+  min-height: 5rem;
+  line-height: 5rem;
+  // @media (max-width: 768px) {
+  //   display: flex;
+  //   flex-direction: column;
+  //   background-color: $dark_green;
+  //   width: 100%;
+  //   height: 100vh;
+  // }
+
+  .nutritions {
+    color: #fff;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      // @media (max-width: 768px) {
+      //   display: flex;
+      //   flex-direction: column;
+      //   background-color: $dark_green;
+      //   width: 100%;
+      // }
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: $theme_white;
+          &:hover,
+          &:active,
+          &:focus {
+            color: $green_70;
+          }
+          .topHeaderButton {
+            background-color: $green_70;
+            outline: none;
+            border: none;
+            height: 3rem;
+            width: 8rem;
+          }
+        }
+      }
+    }
+  }
+}

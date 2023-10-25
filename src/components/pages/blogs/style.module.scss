@@ -1,0 +1,17 @@
+@import "../../../styles/index.scss";
+
+.blogSectionWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: $largeRow_gap 0;
+  .blogHeading {
+    font-size: map-get($headings, font-size);
+    font-weight: map-get($headings, font-weight);
+    line-height: map-get($headings, line-height);
+    font-style: map-get($headings, font-style);
+    color: "#262626";
+    margin-bottom: $smallRow_gap;
+  }
+}
