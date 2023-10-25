@@ -7,13 +7,6 @@
   flex-direction: column;
   gap: $smallRow_gap;
   margin-bottom: $largeRow_gap;
-  h3 {
-    font-size: map-get($headings, font-size);
-    font-weight: map-get($headings, font-weight);
-    line-height: map-get($headings, line-height);
-    font-style: map-get($headings, font-style);
-    color: "#262626";
-  }
 }
 .col1 {
   background-color: $para_headers;

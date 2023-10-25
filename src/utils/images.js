@@ -9,6 +9,15 @@ import backPack from "../assets/icons/backpack.svg"
 import dumbell from "../assets/icons/dumbbell.svg"
 import wallet from "../assets/icons/wallet.svg"
 
+import BlogPost1 from "../assets/images/BlogPost1.png"
+import BlogPost2 from "../assets/images/BlogPost2.png"
+import BlogPost3 from "../assets/images/BlogPost3.png"
+import BlogPost4 from "../assets/images/BlogPost4.png"
+
+import SquareLogo1 from "../assets/avatars/squarelogo1.svg"
+import SquareLogo2 from "../assets/avatars/squarelogo2.svg"
+import SquareLogo3 from "../assets/avatars/squarelogo3.svg"
+import SquareLogo4 from "../assets/avatars/squarelogo4.svg"
 export const image = {
     image1,
     image2,
@@ -18,5 +27,13 @@ export const image = {
     fork,
     backPack,
     dumbell,
-    wallet
+    wallet,
+    BlogPost1,
+    BlogPost2,
+    BlogPost3,
+    BlogPost4,
+    SquareLogo1,
+    SquareLogo2,
+    SquareLogo3,
+    SquareLogo4,
 }

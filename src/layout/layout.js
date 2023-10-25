@@ -6,6 +6,7 @@ import TopHeader from "../components/pages/header/Header";
 import HeroSection from "../components/pages/hero/HeroSection";
 import Feature from "../components/pages/features/Feature";
 import Blogs from "../components/pages/blogs/Blogs";
+import Testimonials from "../components/pages/testimonials/Testimonials";
 
 const MainLayout = () => {
   return (
@@ -16,7 +17,8 @@ const MainLayout = () => {
           <Content>
             <HeroSection />
             <Feature />
-            <Blogs/>
+            <Blogs />
+            <Testimonials />
           </Content>
           <Footer>Footer</Footer>
         </Layout>

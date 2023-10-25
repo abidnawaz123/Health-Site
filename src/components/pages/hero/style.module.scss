@@ -10,19 +10,10 @@
   .mainLabel {
     color: $dark_green;
     border-bottom: 3px solid $green_70;
-    // max-width: 30%;
-    font-size: map-get($headings, font-size);
-    font-style: map-get($headings, font-style);
-    font-weight: map-get($headings, font-weight);
-    font-size: map-get($headings, font-size);
   }
   .giantHeading {
     margin: $smallRow_gap 0;
     color: $dark_green;
-    font-size: map-get($giant_headings, font-size);
-    font-style: map-get($giant_headings, font-style);
-    font-weight: map-get($giant_headings, font-weight);
-    font-size: map-get($giant_headings, font-size);
     &::selection {
       background-color: #468671;
       color: yellow;
@@ -30,12 +21,6 @@
     @media (max-width: 768px) {
       font-size: 20px;
     }
-  }
-  .description_1 {
-    font-size: map-get($my_gray_text, font-size);
-    font-style: map-get($my_gray_text, font-style);
-    font-weight: map-get($my_gray_text, font-weight);
-    font-size: map-get($my_gray_text, font-size);
   }
   .buttonsGroup {
     display: flex;
@@ -77,10 +62,6 @@
     }
     .customerDetails {
       color: $dark_green;
-      font-size: map-get($my_gray_text, font-size);
-      font-style: map-get($my_gray_text, font-style);
-      font-weight: map-get($my_gray_text, font-weight);
-      font-size: map-get($my_gray_text, font-size);
     }
   }
   p {
