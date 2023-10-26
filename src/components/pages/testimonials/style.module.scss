@@ -8,4 +8,19 @@
     align-items: center;
     margin: $largeRow_gap 0;
   }
+  .quoteSection {
+    .jennifQuote {
+      display: flex;
+      align-items: center;
+      gap: $smallRow_gap;
+    }
+    .labels {
+      padding: 24px;
+    }
+  }
+  .card {
+    background-color: $para_headers;
+    border: 1px solid $card_border;
+    border-radius: 10px;
+  }
 }

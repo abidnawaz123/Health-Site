@@ -1,0 +1,68 @@
+@import "../../../styles/index.scss";
+
+.PricingWrapper {
+  margin-bottom: $smallRow_gap;
+  .pricingLabels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: $largeRow_gap;
+  }
+  .actionButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: $largeRow_gap 0 $smallRow_gap 0;
+
+    button {
+      padding: 10px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    button:nth-child(1) {
+      background-color: $dark_green;
+      color: $para_headers;
+    }
+    button:nth-child(2) {
+      color: $button_label;
+    }
+  }
+  .savingLabel {
+    text-align: center;
+  }
+}
+.basicPlan,
+.premiumPlan,
+.ultimatePlan {
+  .planCost {
+    display: flex;
+    align-items: center;
+    h1 {
+      color: #2c5446;
+      font-weight: 700;
+    }
+  }
+  .topHeading {
+    margin: $largeRow_gap 0;
+    * {
+      margin: $smallRow_gap 0;
+    }
+  }
+  background-color: $para_headers;
+  h3 {
+    font-weight: 700;
+  }
+  .planSelector {
+    background-color: $green_70;
+  }
+  .planLabels {
+    min-height: 328px;
+  }
+}
+.cards {
+  margin: $largeRow_gap 0;
+}

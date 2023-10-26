@@ -18,6 +18,11 @@ import SquareLogo1 from "../assets/avatars/squarelogo1.svg"
 import SquareLogo2 from "../assets/avatars/squarelogo2.svg"
 import SquareLogo3 from "../assets/avatars/squarelogo3.svg"
 import SquareLogo4 from "../assets/avatars/squarelogo4.svg"
+
+import Jennifer from "../assets/icons/Jennifer.svg";
+import Robert from "../assets/icons/Robert.svg";
+import Emily from "../assets/icons/Emily.svg";
+
 export const image = {
     image1,
     image2,
@@ -36,4 +41,7 @@ export const image = {
     SquareLogo2,
     SquareLogo3,
     SquareLogo4,
+    Jennifer,
+    Robert,
+    Emily,
 }

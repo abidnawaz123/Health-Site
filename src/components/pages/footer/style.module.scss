@@ -1,0 +1,38 @@
+@import "../../../styles/index.scss";
+
+.nutritions {
+  background-color: $dark_green;
+  color: #fff;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $theme_white;
+        &:hover,
+        &:active,
+        &:focus {
+          color: $green_70;
+        }
+      }
+    }
+  }
+  .goToTop {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    .topHeaderButton {
+      background-color: $light_green;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      outline: none;
+      border: none;
+      border-radius: 30px;
+      align-items: center;
+    }
+  }
+}
