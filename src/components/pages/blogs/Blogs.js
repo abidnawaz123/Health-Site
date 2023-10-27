@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./style.module.scss"
 import { Card, Col, Image, Row } from 'antd'
 import { image } from '../../../utils/images'
-import { HeartOutlined, BookOutlined } from "@ant-design/icons"
+import { HeartFilled, BookOutlined } from "@ant-design/icons"
 
 const Blogs = () => {
+
+    const [checkedIcon, setCheckedIcon] = useState(false)
+
+    const handleIconColorChange = (key) => {
+        setCheckedIcon(prevState => !prevState)
+    }
+
     return (
         <>
             <div className={styles.container}>
@@ -17,7 +24,7 @@ const Blogs = () => {
                         <Col span={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
-                                    <img src={image.BlogPost1} width="100%" height="auto" />
+                                    <img alt='blog post image' src={image.BlogPost1} width="100%" height="auto" />
                                     <div className={styles.cardTypo}>
                                         <p className={styles.headerLabel}>Weight loss</p>
                                         <h3>The Benefits of Hydration for Weight Loss</h3>
@@ -33,7 +40,7 @@ const Blogs = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.actionButtons}>
-                                                <div className={styles.actionButton1}> <HeartOutlined /></div>
+                                                <div className={checkedIcon ? styles.actionButton1 : styles.checkedActionButton}> <HeartFilled onClick={() => {setCheckedIcon(prevState => !prevState)}} /></div>
                                                 <div className={styles.actionButton2}><BookOutlined /></div>
                                             </div>
                                         </div>
@@ -44,7 +51,7 @@ const Blogs = () => {
                         <Col span={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
-                                    <img src={image.BlogPost2} width="100%" height="auto" />
+                                    <img alt='blog post image' src={image.BlogPost2} width="100%" height="auto" />
                                     <div className={styles.cardTypo}>
                                         <p className={styles.headerLabel}>Weight loss</p>
                                         <h3>The Benefits of Hydration for Weight Loss</h3>
@@ -60,7 +67,7 @@ const Blogs = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.actionButtons}>
-                                                <div className={styles.actionButton1}> <HeartOutlined /></div>
+                                                <div className={checkedIcon ? styles.actionButton1 : styles.checkedActionButton}> <HeartFilled onClick={() => { setCheckedIcon(prevState => !prevState) }} /></div>
                                                 <div className={styles.actionButton2}><BookOutlined /></div>
                                             </div>
                                         </div>
@@ -71,7 +78,7 @@ const Blogs = () => {
                         <Col span={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
-                                    <img src={image.BlogPost3} width="100%" height="auto" />
+                                    <img alt='blog post image' src={image.BlogPost3} width="100%" height="auto" />
                                     <div className={styles.cardTypo}>
                                         <p className={styles.headerLabel}>Weight loss</p>
                                         <h3>The Benefits of Hydration for Weight Loss</h3>
@@ -87,7 +94,7 @@ const Blogs = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.actionButtons}>
-                                                <div className={styles.actionButton1}> <HeartOutlined /></div>
+                                                <div className={checkedIcon ? styles.actionButton1 : styles.checkedActionButton}> <HeartFilled onClick={() => { setCheckedIcon(prevState => !prevState) }} /></div>
                                                 <div className={styles.actionButton2}><BookOutlined /></div>
                                             </div>
                                         </div>
@@ -98,7 +105,7 @@ const Blogs = () => {
                         <Col span={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
-                                    <img src={image.BlogPost4} width="100%" height="auto" />
+                                    <img alt='blog post image' src={image.BlogPost4} width="100%" height="auto" />
                                     <div className={styles.cardTypo}>
                                         <p className={styles.headerLabel}>Weight loss</p>
                                         <h3>The Benefits of Hydration for Weight Loss</h3>
@@ -114,7 +121,7 @@ const Blogs = () => {
                                                 </div>
                                             </div>
                                             <div className={styles.actionButtons}>
-                                                <div className={styles.actionButton1}> <HeartOutlined /></div>
+                                                <div className={checkedIcon ? styles.actionButton1 : styles.checkedActionButton}> <HeartFilled onClick={() => { setCheckedIcon(prevState => !prevState) }} /></div>
                                                 <div className={styles.actionButton2}><BookOutlined /></div>
                                             </div>
                                         </div>

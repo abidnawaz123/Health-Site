@@ -1,16 +1,19 @@
 @import "../styles/index.scss";
 
 .mainLayout {
-  .customContainer {
+  :global(.ant-layout) {
     background-color: $theme_white;
-    max-width: 1600px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  .content {
-    background-color: $theme_white;
-  }
-  .footer {
-    background-color: $dark_green;
+    .customContainer {
+      background-color: $theme_white;
+      max-width: 1600px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+    .content {
+      background-color: $theme_white;
+    }
+    .footer {
+      background-color: $dark_green;
+    }
   }
 }

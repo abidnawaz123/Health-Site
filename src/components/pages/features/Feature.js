@@ -1,13 +1,10 @@
 import React from 'react'
-import { FEATURES, TEAM_EXPERIENCE, TRILORED_NUTRITION } from '../../../utils/constants'
+import { FEATURES, TRILORED_NUTRITION } from '../../../utils/constants'
 import styles from "./style.module.scss"
 import { Col, Row } from 'antd'
 import { image } from '../../../utils/images'
 
 const Feature = () => {
-    const FirstRow = [
-        {}
-    ]
     return (
         <>
             <div className={styles.container}>
@@ -20,7 +17,8 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.flowerIcon} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}>
+                                        <img alt='img' src={image.flowerIcon} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>
@@ -34,7 +32,7 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.graduationIcon} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}> <img alt='img' src={image.graduationIcon} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>
@@ -48,7 +46,7 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.fork} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}> <img alt='img' src={image.fork} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>
@@ -62,7 +60,7 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.wallet} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}> <img alt='img' src={image.wallet} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>
@@ -76,7 +74,7 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.dumbell} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}> <img alt='img' src={image.dumbell} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>
@@ -89,7 +87,7 @@ const Feature = () => {
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
-                                    <div className={styles.iconSection}> <img src={image.backPack} height={25} width={25} /></div>
+                                    <div className={styles.iconSection}> <img alt='img' src={image.backPack} height={25} width={25} /></div>
                                 </div>
                                 <h4>Personalized Nutrition Plans</h4>
                             </div>

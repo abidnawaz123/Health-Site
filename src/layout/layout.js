@@ -25,7 +25,6 @@ const MainLayout = () => {
             <Pricing />
           </Content>
         </div>
-
         <Footer className={styles.footer}>
           <BottomFooter />
         </Footer>

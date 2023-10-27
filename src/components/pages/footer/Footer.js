@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./style.module.scss"
 import Link from 'antd/es/typography/Link'
-import { Button, Card, Col, Row } from 'antd'
+import { Button, Card } from 'antd'
 import { NUTRITIONIST } from '../../../utils/constants'
 import { MessageFilled, PhoneFilled, CaretRightFilled } from "@ant-design/icons"
 import { ArrowUpOutlined } from "@ant-design/icons"
