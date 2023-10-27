@@ -30,12 +30,12 @@ const Pricing = () => {
                                 </div>
                                 <p>Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.</p>
                                 <div className={styles.planCost}>
-                                    <h1>49</h1><span>/ month</span>
+                                    <h1>$49</h1><span>/ month</span>
                                 </div>
                             </div>
-                            <Card className={styles.planSelector}>
+                            <Button className={styles.planSelector}>
                                 <p>Choose Plan</p>
-                            </Card>
+                            </Button>
                         </Card>
                     </Col>
                     <Col span={8}>
@@ -47,12 +47,12 @@ const Pricing = () => {
                                 </div>
                                 <p>Upgrade to our Premium Plan for enhanced features. In addition to the Basic Plan, you'll receive video consultations, priority support, and personalized recipe recommendations.</p>
                                 <div className={styles.planCost}>
-                                    <h1>79</h1><span>/ month</span>
+                                    <h1>$79</h1><span>/ month</span>
                                 </div>
                             </div>
-                            <Card className={styles.planSelector}>
+                            <Button className={styles.planSelector}>
                                 <p>Choose Plan</p>
-                            </Card>
+                            </Button>
                         </Card>
                     </Col>
                     <Col span={8}>
@@ -64,12 +64,12 @@ const Pricing = () => {
                                 </div>
                                 <p>Experience the full benefits of personalized nutrition coaching with our Ultimate Plan. Enjoy all the features of the Premium Plan, along with 24/7 chat support and exclusive workshops.</p>
                                 <div className={styles.planCost}>
-                                    <h1>99</h1><span>/ month</span>
+                                    <h1>$99</h1><span>/ month</span>
                                 </div>
                             </div>
-                            <Card className={styles.planSelector}>
+                            <Button className={styles.planSelector}>
                                 <p>Choose Plan</p>
-                            </Card>
+                            </Button>
                         </Card>
                     </Col>
                 </Row>

@@ -5,8 +5,9 @@
   color: #fff;
   ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 0 $largeRow_gap 0;
     li {
       list-style: none;
       a {
@@ -33,6 +34,31 @@
       border: none;
       border-radius: 30px;
       align-items: center;
+    }
+  }
+  .bottomCard {
+    background-color: $light_green;
+    border: 1px solid $green_shadow;
+    .bottomSubCard {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      .iconsSection {
+        display: flex;
+        gap: 1rem;
+        .iconsWrapper {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 10px 30px;
+          border: 1px solid $green_shadow;
+          .icons {
+            color: $green_70;
+            font-size: 22px;
+          }
+        }
+      }
     }
   }
 }

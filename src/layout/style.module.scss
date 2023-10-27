@@ -1,8 +1,8 @@
 @import "../styles/index.scss";
 
 .mainLayout {
-  //   background-color: $para_headers;
   .customContainer {
+    background-color: $theme_white;
     max-width: 1600px;
     padding: 0 15px;
     margin: 0 auto;

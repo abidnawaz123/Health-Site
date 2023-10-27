@@ -13,9 +13,10 @@ import BottomFooter from "../components/pages/footer/Footer";
 const MainLayout = () => {
   return (
     <div className={styles.mainLayout}>
-      <div className={styles.customContainer}>
-        <Layout>
-          <TopHeader />
+      <Layout>
+        <TopHeader />
+        <div className={styles.customContainer}>
+
           <Content className={styles.content}>
             <HeroSection />
             <Feature />
@@ -23,11 +24,12 @@ const MainLayout = () => {
             <Testimonials />
             <Pricing />
           </Content>
-          <Footer className={styles.footer}>
-            <BottomFooter/>
-          </Footer>
-        </Layout>
-      </div>
+        </div>
+
+        <Footer className={styles.footer}>
+          <BottomFooter />
+        </Footer>
+      </Layout>
     </div>
   );
 };
