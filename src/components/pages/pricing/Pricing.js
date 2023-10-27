@@ -26,7 +26,7 @@ const Pricing = () => {
                 </div>
                 <div className={styles.cards}>
                     <Row gutter={16}>
-                        <Col span={8}>
+                        <Col sm={24} lg={8}  >
                             <Card className={styles.basicPlan}>
                                 <div className={styles.planLabels}>
                                     <div className={styles.topHeading}>
@@ -43,7 +43,7 @@ const Pricing = () => {
                                 </Button>
                             </Card>
                         </Col>
-                        <Col span={8}>
+                        <Col sm={24} lg={8} >
                             <Card className={styles.premiumPlan}>
                                 <div className={styles.planLabels}>
                                     <div className={styles.topHeading}>
@@ -60,7 +60,7 @@ const Pricing = () => {
                                 </Button>
                             </Card>
                         </Col>
-                        <Col span={8}>
+                        <Col sm={24} lg={8} >
                             <Card className={styles.ultimatePlan}>
                                 <div className={styles.planLabels}>
                                     <div className={styles.topHeading}>

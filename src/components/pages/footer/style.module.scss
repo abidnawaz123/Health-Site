@@ -47,6 +47,7 @@
       .iconsSection {
         display: flex;
         gap: 1rem;
+        flex-wrap: wrap;
         .iconsWrapper {
           display: flex;
           align-items: center;

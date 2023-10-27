@@ -21,7 +21,7 @@ const Blogs = () => {
                 </div>
                 <div className={styles.rowWrapper}>
                     <Row gutter={[16, 16]}>
-                        <Col span={12} >
+                        <Col  sm={24} md={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
                                     <img alt='blog post image' src={image.BlogPost1} width="100%" height="auto" />
@@ -48,7 +48,7 @@ const Blogs = () => {
                                 </Card>
                             </div>
                         </Col>
-                        <Col span={12} >
+                        <Col  sm={24} md={12} >
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
                                     <img alt='blog post image' src={image.BlogPost2} width="100%" height="auto" />
@@ -75,7 +75,7 @@ const Blogs = () => {
                                 </Card>
                             </div>
                         </Col>
-                        <Col span={12} >
+                        <Col  sm={24} md={12}>
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
                                     <img alt='blog post image' src={image.BlogPost3} width="100%" height="auto" />
@@ -102,7 +102,7 @@ const Blogs = () => {
                                 </Card>
                             </div>
                         </Col>
-                        <Col span={12} >
+                        <Col  sm={24} md={12}>
                             <div className={styles.cardWrapper}>
                                 <Card className={styles.card}>
                                     <img alt='blog post image' src={image.BlogPost4} width="100%" height="auto" />

@@ -15,7 +15,7 @@ const Testimonials = () => {
                     </div>
                     <div>
                         <Row gutter={16}>
-                            <Col span={8}>
+                            <Col sm={24} lg={8}>
                                 <div className={styles.card}>
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>
@@ -33,7 +33,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col span={8}>
+                            <Col sm={24} lg={8}>
                                 <div className={styles.card}>
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col span={8}>
+                            <Col sm={24} lg={8}>
                                 <div className={styles.card}>
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>

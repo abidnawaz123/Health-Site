@@ -13,7 +13,7 @@ const Feature = () => {
                     <p>{FEATURES}</p>
                 </div>
                 <Row gutter={[20, 20]} style={{ width: '100%' }}>
-                    <Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    <Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
@@ -28,7 +28,7 @@ const Feature = () => {
                         </div>
 
                     </Col>
-                    <Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    <Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
@@ -42,7 +42,7 @@ const Feature = () => {
                         </div>
 
                     </Col>
-                    <Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    <Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
@@ -56,7 +56,7 @@ const Feature = () => {
                         </div>
 
                     </Col>
-                    <Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    <Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
@@ -70,7 +70,7 @@ const Feature = () => {
                         </div>
 
                     </Col>
-                    <Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    <Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
@@ -83,7 +83,7 @@ const Feature = () => {
                             </p>
                         </div>
 
-                    </Col><Col lg={12} span={12} xs={24} sm={24} md={24}>
+                    </Col><Col lg={12} sm={24} md={24}>
                         <div className={styles.col1}>
                             <div className={styles.column1}>
                                 <div>
