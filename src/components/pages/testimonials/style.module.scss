@@ -16,6 +16,14 @@
     }
     .labels {
       padding: 24px;
+      p {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        margin-bottom: $largeRow_gap;
+      }
     }
   }
   .card {

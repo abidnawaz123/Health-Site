@@ -20,7 +20,7 @@ const Testimonials = () => {
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>
                                             <img src={QuotesIcon} alt='quote image' />
-                                            <p style={{ minHeight: 150 }}>
+                                            <p >
                                                 I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!
                                             </p>
                                         </div>
@@ -38,7 +38,7 @@ const Testimonials = () => {
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>
                                             <img src={QuotesIcon} alt='quote image' />
-                                            <p style={{ minHeight: 150 }}>
+                                            <p >
                                                 Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!
                                             </p>
                                         </div>
@@ -56,7 +56,7 @@ const Testimonials = () => {
                                     <div className={styles.quoteSection}>
                                         <div className={styles.labels}>
                                             <img src={QuotesIcon} alt='quote image' />
-                                            <p style={{ minHeight: 150 }}>
+                                            <p >
                                                 I had struggled with my weight for years until I found Nutritionist. Their personalized approach and tailored nutrition plan made all the difference. I've never felt better!
                                             </p>
                                         </div>
